@@ -1,0 +1,80 @@
+.sidebar{
+    background-color: rgba(0, 195, 255, 0.726);
+}
+
+#container{
+    display: flex;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    flex: 1;
+
+
+}
+img {
+    height: 20px;
+    margin: 0;
+    background-color: grey;
+    display: flex;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #ddd;
+}
+.tophead{
+    display: flex;
+    flex: 1;
+}
+.lowhead{
+    display: flex;
+    flex: 1;
+}
+.project{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+
+    gap: 10px;
+    resize:both;
+    background-color: blue;
+
+
+}
+.proj{
+    display: flex;
+    flex-direction: column;
+    border-left: 2px solid darkorange;
+    flex: 1;
+    background-color: lightyellow;
+    padding: 20px;
+
+}
+.bodycontent{
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+    padding: 20px;
+    min-height: 100vh;
+    flex: 1;
+
+
+}
+.anncont{
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+.trend{
+    background-color: lightyellow;
+    padding: 20px;
+}
+.anntrend{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
